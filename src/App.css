@@ -1,0 +1,263 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 700px;
+  padding: 0px 14px;
+}
+
+.user-section {
+  display: flex;
+  padding: 5px 0px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-section > div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.user-name {
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 32px;
+}
+
+.username-susbtitle {
+  color: var(--Pure-White, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+  letter-spacing: 0.2px;
+}
+
+.profile-picture-wrapper {
+  height: fit-content;
+  width: 30%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-picture-wrapper > img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.search-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  color: white;
+  background-color: #212122;
+  border-radius: 5px;
+}
+
+.search-wrapper > span {
+  color: #fff;
+  letter-spacing: 0.2px;
+}
+
+.community-button {
+  background-color: green;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 25px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  display: flex;
+  gap: 5px;
+}
+
+.courses-subtitle {
+  font-size: 18px;
+}
+
+.course-section-title {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 40px;
+  letter-spacing: 0.2px;
+  font-feature-settings: "clig" off, "liga" off;
+}
+
+.course-item-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 280px;
+  cursor: pointer;
+}
+
+.course-item-wrapper > .course-image {
+  width: 280px;
+  height: 160px;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+
+.course-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.course-title {
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Avenir;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+}
+
+.course-subtitle {
+  color: var(--Pure-White, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+}
+
+.courses-products {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+.courses-section {
+  margin-top: 10px;
+}
+
+.top_header {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  padding: 0px 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top_header img {
+  width: 30px;
+  height: 30px;
+}
+
+.middleImage {
+  width: 90%;
+  aspect-ratio: 3/1.3;
+  border-radius: 10px;
+}
+
+.middleImage > img {
+  width: 100%;
+  aspect-ratio: 3/1.3;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.course-detals {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.chapter-buttons {
+  height: 40px;
+  width: 290px;
+  color: white;
+  background-color: #2e3035;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.buttons-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.controll-buttons {
+  padding: 0px 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.prgress-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.times {
+  width: 100%;
+  display: flex;
+  justify-items: space-between;
+}
+
+.times span {
+  width: 100%;
+}
+
+.times span:nth-child(1) {
+  width: 100%;
+  text-align: left;
+}
+
+.times span:nth-child(2) {
+  width: 100%;
+  text-align: right;
+}
+
+.bar-style {
+  position: relative;
+  height: 5px;
+  width: 100%;
+  background-color: blue;
+  margin: 13px;
+  margin-top: 35px;
+}
+
+.blue-dot {
+  background-color: white;
+  position: absolute;
+  top: -3px;
+  left: 10%;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.container {
+  position: relative;
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    width: 100%;
+  }
+}

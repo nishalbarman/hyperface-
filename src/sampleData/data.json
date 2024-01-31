@@ -1,0 +1,52 @@
+{
+  "user": {
+    "name": "Anirudh",
+    "profilePic": "https://s3-alpha-sig.figma.com/img/aa36/39a7/0f5ffa292521ddacef92c174b15c17b6?Expires=1707696000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Qu7y3b6NKr1naCmFcAb97cuJX7q-fRWwbN2ICQxEwj5dKh-gPK0Je6iAzxLFIusIwlsRa2FLSllsxO4UaLTnVjCwTp8NHJlve61Qv6kT9zYh5kEA3-pxw0FBmXdZmYs5BfXMYadrqa6~1jN1lxilM4K49TEpt-APghA2mM9h1w7elivUCHSkoZtVCCb5UgkxPjnvaAfwhI1EBJpBZkNGWKUUxObXsX4Ou0u9ArhFEVe7C2nONZVgOy3b1Puq9D1eNFTcK7Itbkves7pVIykdMCc~jK98jIpbTc3Ijdhw2PaQ0Krv2lP5W0Oztz8MhdevnjTyoNT524bFxLSCbRCw2A__"
+  },
+  "courses": [
+    {
+      "title": "Fundamentals of Product Design",
+      "bgColor": "linear-gradient(to right, yellow, orange)",
+      "imageUrl": "",
+      "totalChapters": 8,
+      "duration": "2 hours"
+    },
+    {
+      "title": "Fundamentals of Product Design",
+      "bgColor": "linear-gradient(to right, #c7c2fd, #0150F0)",
+      "imageUrl": "",
+      "totalChapters": 1,
+      "duration": "2 hours"
+    }
+  ],
+  "artical": [
+    {
+      "title": "Fundamentals of Product Design",
+      "bgColor": "linear-gradient(to right, #FF94A8, #FF6F88, #FF94A8)",
+      "imageUrl": "",
+      "totalChapters": 1,
+      "duration": "2 hours"
+    },
+    {
+      "title": "Fundamentals of Product Design",
+      "bgColor": "linear-gradient(to right, #f7cd69, #e48e44)",
+      "imageUrl": "",
+      "totalChapters": 8,
+      "duration": "2 hours"
+    }
+  ],
+  "tween_shorts": [
+    {
+      "title": "Fundamentals of Product Design",
+      "bgColor": "linear-gradient(to right, #FF94A8, #FF6F88)",
+      "profilePic": "https://s3-alpha-sig.figma.com/img/2c44/2d77/f25e49c75cc9147174bebe3cbb2d11e6?Expires=1707696000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RB33QWidizpCh0trV38IW~G-iQr2s1x2JWvNI5M~L8eIgWQztZCSNl96TPbccLl7ncTfVrr0hi7kYBFGAaHtF7juaMmJdGlJFdu1c-o9CwZa6AH1TeRs4I8ZmjhFr76xzuVuXa58ZwRLDgfcC5YaGD2yLJhytXyHwaCqvAlpVfKIID~H88-hvXTyLTQbZvt8tO-quMaSpzsKzYu3EKLK6UFaGKu6RXFdctjuxi6nAiyqBqRaDcrx1mXeR6vWDnS9s7TOMjTFLd0p6y3Ph3UNJ1IpUEt32ShDjyfKOlgrjiGxMA02oBLYL~MhcPl-wDPWxd175eGOAwUZ1vedfSH5eQ__",
+      "author": "Shreya Doshi"
+    },
+    {
+      "title": "Fundamentals of Product Design",
+      "bgColor": "linear-gradient(to right, #65D9D1, #2BD9CC)",
+      "profilePic": "https://s3-alpha-sig.figma.com/img/2c44/2d77/f25e49c75cc9147174bebe3cbb2d11e6?Expires=1707696000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RB33QWidizpCh0trV38IW~G-iQr2s1x2JWvNI5M~L8eIgWQztZCSNl96TPbccLl7ncTfVrr0hi7kYBFGAaHtF7juaMmJdGlJFdu1c-o9CwZa6AH1TeRs4I8ZmjhFr76xzuVuXa58ZwRLDgfcC5YaGD2yLJhytXyHwaCqvAlpVfKIID~H88-hvXTyLTQbZvt8tO-quMaSpzsKzYu3EKLK6UFaGKu6RXFdctjuxi6nAiyqBqRaDcrx1mXeR6vWDnS9s7TOMjTFLd0p6y3Ph3UNJ1IpUEt32ShDjyfKOlgrjiGxMA02oBLYL~MhcPl-wDPWxd175eGOAwUZ1vedfSH5eQ__",
+      "author": "Shreya Doshi"
+    }
+  ]
+}
